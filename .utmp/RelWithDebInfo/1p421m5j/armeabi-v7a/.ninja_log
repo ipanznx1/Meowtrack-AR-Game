@@ -1,0 +1,19 @@
+# ninja log v5
+532	28981	8040564965570399	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	dbc36a1075224402
+1410	28992	8040564965570399	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	daccad197cffe008
+1404	28985	8040564965570399	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	8991506fc1ccb653
+516	28987	8040564965570399	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	723fbfd6244617a2
+28992	33597	8040565020947786	E:/MeowtrackProject/flutter-unity-view-widget-2022.2.1/unity/KUCING AR BARU/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1p421m5j/obj/armeabi-v7a/libgame.so	c386c4f35de4050b
+1542	28990	8040564965570399	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	daa27490edd96f3f
+572	28977	8040564965570399	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	ae54b96a5d2e7f4b
+1407	28983	8040564965622161	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	87743d7ea72e39a9
+536	28989	8040564965622161	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	822c65c5f204ef81
+68	5925	8040862243916990	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	dbc36a1075224402
+73	5976	8040862244215381	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	ae54b96a5d2e7f4b
+80	6003	8040862244325040	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	daccad197cffe008
+91	6016	8040862244733942	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	daa27490edd96f3f
+65	6025	8040862244843655	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	723fbfd6244617a2
+85	6030	8040862244893520	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	8991506fc1ccb653
+76	6908	8040862253761789	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	87743d7ea72e39a9
+60	6930	8040862253945894	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	822c65c5f204ef81
+6930	8083	8040862265219198	E:/MeowtrackProject/flutter-unity-view-widget-2022.2.1/unity/KUCING AR BARU/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1p421m5j/obj/armeabi-v7a/libgame.so	c386c4f35de4050b

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Kulit_9
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Kulit
+  namaPenyakit: Malassezia (Jangkitan Yis)
+  namaPenyakitEN: Malassezia (Jangkitan Yis)
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: fff9633195c844c41bcbd872b9e59402, type: 3}
+  isGraphic: 1
+  punca: Alahan, ketidakseimbangan hormon, kelembapan tinggi, lebihan minyak pada
+    kulit, sistem imun lemah, atau genetik.
+  simptom: Kulit merah, bulu berminyak dan bergumpal, perubahan warna menjadi hitam/coklat
+    gelap, dan gatal-gatal.
+  tindakan: Rujuk doktor haiwan untuk diagnosis yang betul.
+  maklumatTambahan: Kulat ini normal di atas kulit tetapi menjadi masalah jika membiak
+    berlebihan. Pastikan persekitaran kucing sentiasa kering. Alat dandanan yang
+    tidak bersih boleh menyebarkan jangkitan.
+  puncaEN: Allergies, hormonal imbalance, high humidity, excess oil on the skin,
+    weak immune system, or genetics.
+  simptomEN: Red skin, greasy and matted fur, skin discoloration turning black/dark
+    brown, and itchiness.
+  tindakanEN: Refer to a veterinarian for a proper diagnosis.
+  maklumatTambahanEN: This fungus is normal on the skin but becomes a problem if
+    it overproduces. Ensure the cat's environment is always dry. Unclean grooming
+    tools can spread the infection.

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Kulit_3
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Kulit
+  namaPenyakit: Allergy Dermatitis
+  namaPenyakitEN: Allergy Dermatitis
+  tahapRisiko: Tahap 1
+  tahapRisikoEN: Level 1
+  gambar: {fileID: 21300000, guid: 2de4cc95ff8f5cd45859dc37f0d562ea, type: 3}
+  isGraphic: 0
+  punca: 'Reaksi alahan terhadap produk dandanan, makanan, faktor persekitaran (contoh:
+    debunga), atau gigitan kutu.'
+  simptom: Kerap menggeleng kepala, bulu gugur, kesan air liur coklat, kulit kemerahan/bersisik,
+    kulit menebal, menjilat/menggigit/menggaru secara berlebihan, benjolan bernanah,
+    dan kulit menjadi gelap.
+  tindakan: Dapatkan rawatan doktor haiwan.
+  maklumatTambahan: Mengurangkan pendedahan kepada punca alahan adalah penting. Kawalan
+    kutu dan diet yang betul membantu mencegahnya. Kucing cenderung menjilat lebih
+    agresif kerana gatal yang melampau.
+  puncaEN: Allergic reactions to grooming products, food, environmental factors (e.g.,
+    pollen), or flea bites.
+  simptomEN: Frequent head shaking, hair loss, brown saliva stains, red/scaly skin,
+    thickened skin, excessive licking/biting/scratching, pus-filled bumps, and hyperpigmentation
+    (skin turning dark).
+  tindakanEN: Get treatment from a veterinarian.
+  maklumatTambahanEN: Reducing exposure to the source of the allergy is important.
+    Flea control and a proper diet help prevent it. The cat tends to lick more aggressively
+    due to intense itchiness.

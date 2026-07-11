@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Kulit_4
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Kulit
+  namaPenyakit: Folliculitis
+  namaPenyakitEN: Folliculitis
+  tahapRisiko: Tahap 1
+  tahapRisikoEN: Level 1
+  gambar: {fileID: 21300000, guid: db670abf55ad579449659b83253441bf, type: 3}
+  isGraphic: 0
+  punca: 'Terutamanya disebabkan oleh bakteria tetapi boleh juga akibat jangkitan
+    kulat, parasit, atau iritasi/trauma kulit (contoh: kecederaan mesin cukur).'
+  simptom: Melibatkan folikel bulu di seluruh badan, kulit menjadi gelap (hyperpigmentation),
+    dan benjolan berisi nanah seperti jerawat (Chin Acne).
+  tindakan: Memerlukan pemeriksaan fizikal oleh doktor haiwan dan ujian diagnostik.
+  maklumatTambahan: Kebersihan yang teruk boleh menyumbang kepada jangkitan kulit
+    ini.
+  puncaEN: Primarily caused by bacteria but can also result from fungal infections,
+    parasites, or skin irritation/trauma (e.g., clipper burns).
+  simptomEN: Involves hair follicles all over the body, hyperpigmentation (skin turning
+    dark), and pus-filled bumps similar to acne (Chin Acne).
+  tindakanEN: Requires a physical examination by a veterinarian and diagnostic tests.
+  maklumatTambahanEN: Poor hygiene can contribute to this skin infection.

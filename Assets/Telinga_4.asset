@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Telinga_4
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Telinga
+  namaPenyakit: Sunburn (ear)
+  namaPenyakitEN: Sunburn (ear)
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: dbd42f2d00c9d434488e5eb94bf955bd, type: 3}
+  isGraphic: 0
+  punca: Terdedah kepada sinaran ultraungu (UV) matahari
+  simptom: Rambut gugur di bahagian telinga, bahagian bawah telinga memjadi merah.
+  tindakan: 'Bawa masuk ke dalam rumah (tempat berteduh), pakaikan sunblock di bhagin
+    telinga, perlu bawa ke vet jika berlaku penykit ulcer di bahagian tersebut untuk
+    dibuang (pinna) '
+  maklumatTambahan: 'Boleh menyebabkan Kucing mungkin menggaru atau menggosok kawasan
+    yang terbakar kerana tidak selesa dimana ia boleh menyebabkan kulit pecah juga
+    boleh membawa kepada ulcer
+
+
+    boleh juga berlaku di mana bahagian kulit,hidung
+    atau kelopak mata.'
+  puncaEN: Exposed to ultraviolet (UV) radiation from the sun.
+  simptomEN: Hair loss on the ear area, and the lower part of the ear becomes red.
+  tindakanEN: Bring the cat indoors (to a shaded place), apply sunblock to the ear
+    area, and it must be taken to the vet if ulcer disease occurs in that area for
+    surgical removal (pinna).
+  maklumatTambahanEN: Can cause the cat to scratch or rub the burned area due to
+    discomfort, which can lead to broken skin or develop into an ulcer. This condition
+    can also occur on the skin, nose, or eyelids.

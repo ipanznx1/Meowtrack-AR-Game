@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Mata_5
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Mata
+  namaPenyakit: Prolapse Iris
+  namaPenyakitEN: Prolapse Iris
+  tahapRisiko: Tahap 3
+  tahapRisikoEN: Level 3
+  gambar: {fileID: 21300000, guid: 757bb8fbd58e173439e23108ce0c7b58, type: 3}
+  isGraphic: 1
+  punca: Trauma fizikal atau calar.
+  simptom: Tisu iris (bahagian berwarna mata) terkeluar melalui luka pada kornea.
+  tindakan: Dapatkan rawatan kecemasan doktor haiwan.
+  maklumatTambahan: Berbeza dengan Proptosis (bola mata terkeluar), Prolapse Iris
+    hanya melibatkan tisu iris yang terkeluar. Kolar kon (Elizabethan) mesti dipakaikan.
+  puncaEN: Physical trauma or scratches.
+  simptomEN: Iris tissue (the colored part of the eye) protruding through a wound
+    on the cornea.
+  tindakanEN: Seek emergency veterinary treatment.
+  maklumatTambahanEN: Unlike Proptosis (eyeball protruding), Prolapse Iris only involves
+    the protruding iris tissue. A cone collar (Elizabethan) must be worn.

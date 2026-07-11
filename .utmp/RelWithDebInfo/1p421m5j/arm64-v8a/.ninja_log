@@ -1,0 +1,19 @@
+# ninja log v5
+6714	65789	8040564275568708	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d98a7114ef46717e
+6723	65803	8040564275473180	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	f1508a6f5a913f67
+6502	65791	8040564275568708	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	e26d65c8bbfed621
+6691	65800	8040564275194423	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9975c3b3eca72118
+6701	65724	8040564275194423	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1e113f131bed1b4c
+6697	65796	8040564275568708	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	288c924d59fa00b0
+6707	65798	8040564275568708	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	bdca50c2c847bf4d
+65803	76344	8040564386267420	E:/MeowtrackProject/flutter-unity-view-widget-2022.2.1/unity/KUCING AR BARU/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1p421m5j/obj/arm64-v8a/libgame.so	dab1bc73000a41e7
+6688	65794	8040564275568708	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	df5ae4f62245a852
+1076	16486	8040862113077570	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	df5ae4f62245a852
+1028	16489	8040862110980055	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9975c3b3eca72118
+1102	16494	8040862111000002	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	e26d65c8bbfed621
+1166	16497	8040862112628602	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	bdca50c2c847bf4d
+1114	16500	8040862111139627	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	288c924d59fa00b0
+1162	16503	8040862111029917	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1e113f131bed1b4c
+1172	16506	8040862111214660	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	f1508a6f5a913f67
+1158	16510	8040862111000002	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d98a7114ef46717e
+16510	20942	8040862157469260	E:/MeowtrackProject/flutter-unity-view-widget-2022.2.1/unity/KUCING AR BARU/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1p421m5j/obj/arm64-v8a/libgame.so	dab1bc73000a41e7

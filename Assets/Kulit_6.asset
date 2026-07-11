@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Kulit_6
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Kulit
+  namaPenyakit: Dry Skin / Dandruff
+  namaPenyakitEN: Dry Skin / Dandruff
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: 1b60809aaa592894db9cdbd260d6d162, type: 3}
+  isGraphic: 0
+  punca: Diet yang buruk, kekurangan asid lemak penting, dan penjagaan bulu (grooming)
+    yang tidak mencukupi.
+  simptom: Serpihan putih (kelemumur) pada bulu, kulit kering, dan rengsa (irritation).
+  tindakan: Pemeriksaan vet berkala, penjagaan bulu, dan kawalan parasit.
+  maklumatTambahan: "Penjagaan di rumah termasuk menyikat bulu, diet seimbang, dan
+    hidrasi. \n\nJangan sesekali guna syampu kelemumur manusia untuk kucing kerana
+    toksik jika dijilat."
+  puncaEN: Poor diet, lack of essential fatty acids, and inadequate grooming.
+  simptomEN: White flakes (dandruff) on the fur, dry skin, and irritation.
+  tindakanEN: Regular vet check-ups, grooming, and parasite control.
+  maklumatTambahanEN: 'Home care includes brushing the fur, a balanced diet, and
+    hydration.
+
+
+    Never use human dandruff shampoo for cats because it is toxic
+    if licked.'

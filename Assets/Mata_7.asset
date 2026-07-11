@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Mata_7
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Mata
+  namaPenyakit: Cherry Eye
+  namaPenyakitEN: Cherry Eye
+  tahapRisiko: Tahap 1
+  tahapRisikoEN: Level 1
+  gambar: {fileID: 21300000, guid: ed41154b2ce7dc04fba22c5c111ae302, type: 3}
+  isGraphic: 1
+  punca: Gangguan mata atau trauma.
+  simptom: Bengkak merah di sudut dalam mata (kelopak mata ketiga) dengan cecair
+    dan keradangan.
+  tindakan: Dapatkan konsultasi doktor haiwan.
+  maklumatTambahan: Secara umumnya ia adalah masalah genetik keturunan dan tidak
+    boleh dicegah.
+  puncaEN: Eye disorders or trauma.
+  simptomEN: Red swelling in the inner corner of the eye (third eyelid) accompanied
+    by fluid and inflammation.
+  tindakanEN: Get a veterinary consultation.
+  maklumatTambahanEN: Generally, it is a hereditary genetic problem and cannot be
+    prevented.

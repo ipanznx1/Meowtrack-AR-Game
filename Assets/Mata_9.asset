@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Mata_9
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Mata
+  namaPenyakit: Glaucoma
+  namaPenyakitEN: Glaucoma
+  tahapRisiko: Tahap 3
+  tahapRisikoEN: Level 3
+  gambar: {fileID: 21300000, guid: ce46ee2c520ce25439a314e7e93ff2d9, type: 3}
+  isGraphic: 0
+  punca: Peningkatan tekanan dalam mata akibat pengumpulan bendalir, selalunya diwarisi.
+    Cecair jernih yang mengisi ruang di bahagian depan (Anterior Chamber)
+  simptom: Mata kelihatan keruh/kebiruan, merah, anak mata membesar, dan urat darah
+    jelas kelihatan.
+  tindakan: Dapatkan rawatan kecemasan doktor haiwan segera.
+  maklumatTambahan: Keadaan ini amat menyakitkan dan boleh membawa kepada buta kekal.
+  puncaEN: Increased pressure within the eye due to fluid accumulation, which is
+    usually inherited. Clear fluid that fills the space in the front part (Anterior
+    Chamber).
+  simptomEN: Eye appears cloudy/bluish, red, the pupil enlarges, and blood vessels
+    are clearly visible.
+  tindakanEN: Seek immediate emergency veterinary treatment.
+  maklumatTambahanEN: This condition is extremely painful and can lead to permanent
+    blindness.

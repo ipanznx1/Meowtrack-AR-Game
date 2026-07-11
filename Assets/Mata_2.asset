@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Mata_2
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Mata
+  namaPenyakit: Katarak (cataract)
+  namaPenyakitEN: Katarak (cataract)
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: 2c1f8537953a6874699fd531d72089a8, type: 3}
+  isGraphic: 0
+  punca: Ketidakseimbangan cecair, metabolik atau masalah nutrisi.
+  simptom: Kanta mata keruh dan penglihatan menjadi kabur.
+  tindakan: Rujuk doktor haiwan untuk pemeriksaan mata yang teliti.
+  maklumatTambahan: "Boleh menyebabkan buta sepenuhnya jika dibiarkan. \n\nUntuk
+    membantu kucing yang terjejas penglihatan: Kekalkan kedudukan makanan dan kotak
+    pasir, jangan ubah perabot, dan halang akses ke tempat bahaya seperti tangga."
+  puncaEN: Fluid imbalance, metabolic issues, or nutritional problems.
+  simptomEN: Cloudy eye lens and blurred vision.
+  tindakanEN: Refer to a veterinarian for a thorough eye examination.
+  maklumatTambahanEN: 'Can cause complete blindness if left untreated.
+
+
+    To help
+    visually impaired cats: Keep the placement of food and litter boxes consistent,
+    do not rearrange furniture, and block access to hazardous areas like stairs.'

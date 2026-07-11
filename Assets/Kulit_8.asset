@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Kulit_8
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Kulit
+  namaPenyakit: Open Wound (Laceration)
+  namaPenyakitEN: Open Wound (Laceration)
+  tahapRisiko: Tahap 3
+  tahapRisikoEN: Level 3
+  gambar: {fileID: 21300000, guid: 929567a8649a6e24ebee5fa8a10d5c3b, type: 3}
+  isGraphic: 1
+  punca: Kecederaan kemalangan, trauma, pergaduhan haiwan, atau didera.
+  simptom: Pendarahan dan luka terbuka yang mendedahkan tisu dalaman seperti lemak,
+    otot, atau tulang.
+  tindakan: 'Hentikan pendarahan menggunakan kain bersih dan dapatkan rawatan vet
+    segera.
+
+
+    Lakukan CPR jika perlu.'
+  maklumatTambahan: Kucing mungkin akan menjilat luka atau berjalan tempang. Gunakan
+    kolar kon (Elizabethan) untuk halang kucing menjilat, kerana lidah kucing penuh
+    dengan bakteria.
+  puncaEN: Accidental injuries, trauma, animal fights, or abuse.
+  simptomEN: Bleeding and open wounds that expose underlying tissues such as fat,
+    muscle, or bone.
+  tindakanEN: 'Stop the bleeding using a clean cloth and seek immediate veterinary
+    treatment.
+
+
+    Perform CPR if necessary.'
+  maklumatTambahanEN: The cat may lick the wound or limp. Use a cone collar (Elizabethan
+    collar) to prevent the cat from licking, as a cat's tongue is full of bacteria.

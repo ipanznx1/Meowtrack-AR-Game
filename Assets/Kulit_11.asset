@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Kulit_11
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Kulit
+  namaPenyakit: Plasma Cell Pododermatitis (Penyakit Tapak Kaki Bantal)
+  namaPenyakitEN: Plasma Cell Pododermatitis (Penyakit Tapak Kaki Bantal)
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: 7b4605d12e8dbf749af8b73f671b90a6, type: 3}
+  isGraphic: 1
+  punca: Terdapat asas imunologi (masalah sistem imun) untuk penyakit ini, tetapi
+    punca sebenar secara mutlak masih belum diketahui. Faktor lain mungkin seperti
+    jangkitan virus FIV, masalah alahan atau gabungan pelbagai faktor lain yang merangsang
+    masalah reaksi imun.
+  simptom: 'Tapak kaki (foot pad) membengkak seperti belon, pembentukan ulser (luka),
+    kucing berjalan tempang jika berasa sakit dan peningkatan jumlah sel darah putih
+    melalui ujian darah. '
+  tindakan: 'Pemberian Ubat Oral Doxycycline, Pembuangan melalui pembedahan mungkin
+    diperlukan bagi membuang jisim ulser yang besar pada tapak kaki, Melakukan diet
+    percubaan makanan untuk mengatasi masalah jika ia berpunca daripada alahan makanan. '
+  maklumatTambahan: "Sebarang umur, jantina, atau baka kucing boleh terjejas oleh
+    penyakit ini. Terdapat keadaan di mana sesetengah kucing tidak berasa sakit dan
+    tidak memerlukan rawatan. \n\nBagi kes di mana tapak kaki bengkak tetapi tidak
+    kelihatan seperti rupa klasik penyakit ini, doktor veterinar boleh melakukan
+    aspirasi jarum (mengambil sampel sel) atau biopsi pada tapak kaki untuk mengesahkan
+    kehadiran sel plasma (sejenis sel darah putih)."
+  puncaEN: There is an immunological basis (immune system problem) for this disease,
+    but the exact absolute cause remains unknown. Other factors may include FIV viral
+    infection, allergy problems, or a combination of various other factors that trigger
+    an immune reaction problem.
+  simptomEN: Foot pads swell like balloons, ulcer (wound) formation, the cat limps
+    if in pain, and an increased white blood cell count through blood tests.
+  tindakanEN: Administration of Oral Doxycycline. Surgical removal may be required
+    to remove large ulcerated masses on the foot pads. Conduct a trial food diet
+    to resolve the issue if it stems from a food allergy.
+  maklumatTambahanEN: 'Any age, gender, or breed of cat can be affected by this disease.
+    There are situations where some cats do not feel pain and do not require treatment.
+
+
+    For
+    cases where the foot pad is swollen but does not show the classic appearance
+    of this disease, a veterinarian can perform a needle aspiration (taking a cell
+    sample) or a biopsy on the foot pad to confirm the presence of plasma cells (a
+    type of white blood cell).'

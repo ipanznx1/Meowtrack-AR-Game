@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Telinga_2
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Telinga
+  namaPenyakit: Jangkitan Telinga (Otitis Externa)
+  namaPenyakitEN: Jangkitan Telinga (Otitis Externa)
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: 014219d19fce2a74cb289881474d38d6, type: 3}
+  isGraphic: 1
+  punca: Kutu telinga, bakteria, kulat, atau alahan.
+  simptom: Kerap menggeleng kepala, menggaru telinga, kemerahan, dan keradangan di
+    dalam telinga.
+  tindakan: Rujuk doktor haiwan untuk pencucian telinga dan ubat.
+  maklumatTambahan: Sebahagian kucing tidak menunjukkan tanda awal sehinggalah ia
+    menjadi teruk. Perlu sentiasa cuci telinga menggunakan ubat klinik.
+  puncaEN: Ear mites, bacteria, fungus, or allergies.
+  simptomEN: Frequently shaking the head, scratching the ear, redness, and inflammation
+    inside the ear.
+  tindakanEN: Refer to a veterinarian for ear cleaning and medication.
+  maklumatTambahanEN: Some cats do not show early signs until it becomes severe.
+    The ears must always be cleaned using clinical medication.

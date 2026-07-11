@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Hidung_3
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Hidung
+  namaPenyakit: Sinusitis (Keradangan atau Jangkitan pada Sinus)
+  namaPenyakitEN: Sinusitis (Keradangan atau Jangkitan pada Sinus)
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: b397e32b632cf24498e754782fee89a3, type: 3}
+  isGraphic: 0
+  punca: Jangkitan sekunder akibat penyakit sistem pernafasan yang biasa berlaku
+    pada kucing. Jangkitan bakteria yang kronik.
+  simptom: Lelehan hidung yang bernanah, kerap bersin dan mendengus/berhingus, Penurunan
+    berat badan yang pantas.
+  tindakan: Rawatan dengan antibiotik yang sesuai berdasarkan ujian kultur dan sensitiviti.
+    Jika rawatan antibiotik gagal, doktor veterinar perlu melakukan prosedur pembedahan.
+  maklumatTambahan: 'Anatomi hidung kucing mempunyai dua frontal sinus dan dua sphenoid
+    sinus (berbentuk baji). Sphenoid sinus yang kecil jarang mencetuskan masalah,
+    namun frontal sinus sangat mudah terkena jangkitan sekunder.
+
+
+    Penyakit ini
+    biasanya disyaki melalui simptom luaran yang ditunjukkan oleh kucing, tetapi
+    akan disahkan sepenuhnya oleh doktor melalui imbasan X-ray (X-ray akan menunjukkan
+    peningkatan ketumpatan pada salah satu sinus).'
+  puncaEN: Secondary infection resulting from common feline respiratory diseases.
+    Chronic bacterial infection.
+  simptomEN: Purulent (pus-filled) nasal discharge, frequent sneezing and snorting,
+    rapid weight loss.
+  tindakanEN: Treatment with appropriate antibiotics based on culture and sensitivity
+    tests. If antibiotic treatment fails, the veterinarian will need to perform a
+    surgical procedure.
+  maklumatTambahanEN: 'The anatomy of a cat''s nose consists of two frontal sinuses
+    and two wedge-shaped sphenoid sinuses. The small sphenoid sinuses rarely cause
+    problems, but the frontal sinuses are highly susceptible to secondary infections.
+
+
+    This
+    disease is usually suspected through the external symptoms shown by the cat,
+    but will be fully confirmed by the doctor through an X-ray scan (the X-ray will
+    show an increase in density in one of the sinuses).'

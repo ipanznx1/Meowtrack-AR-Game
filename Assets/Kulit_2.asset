@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Kulit_2
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Kulit
+  namaPenyakit: Scabies (Kudis)
+  namaPenyakitEN: Scabies (Kudis)
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: ce38f67842aa7734ea921adcdbc3050c, type: 3}
+  isGraphic: 0
+  punca: Disebabkan oleh hama (Sarcoptes).
+  simptom: Kerak tebal terbentuk pada kulit yang menyebabkan kucing kerap menggaru.
+    Berlaku keguguran bulu, kemerahan, luka, dan bau yang tidak menyenangkan.
+  tindakan: Dapatkan diagnosis daripada doktor haiwan.
+  maklumatTambahan: 'Boleh disebabkan oleh kebersihan yang teruk, persekitaran tidak
+    bersih, atau kurang pengetahuan penjagaan. Boleh berjangkit sementara kepada
+    manusia.
+
+
+    Faktor risiko: Akses luar, populasi padat, dan sanitasi lemah.'
+  puncaEN: Caused by mites (Sarcoptes).
+  simptomEN: Thick crusts form on the skin, causing the cat to scratch frequently.
+    Hair loss, redness, sores, and an unpleasant odor occur.
+  tindakanEN: Get a diagnosis from a veterinarian.
+  maklumatTambahanEN: 'Can be caused by poor hygiene, dirty environment, or lack
+    of care knowledge. Can be temporarily transmitted to humans.
+
+
+    Risk factors:
+    Outdoor access, dense population, and poor sanitation.'

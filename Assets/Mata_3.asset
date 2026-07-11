@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Mata_3
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Mata
+  namaPenyakit: Corneal Ulcer
+  namaPenyakitEN: Corneal Ulcer
+  tahapRisiko: Tahap 3
+  tahapRisikoEN: Level 3
+  gambar: {fileID: 21300000, guid: 26520b00a5e79b1488e3ec372eb36868, type: 3}
+  isGraphic: 0
+  punca: Kecederaan, perlindungan kornea yang berkurangan, atau jangkitan virus (FHV-1).
+  simptom: Penglihatan kabur dan ulser kelihatan jelas pada mata.
+  tindakan: Rujuk doktor haiwan untuk pemeriksaan mata yang teliti.
+  maklumatTambahan: Doktor haiwan menggunakan pewarna khas berwarna hijau di bawah
+    lampu biru untuk melihat ulser ini. Kolar kon sangat penting untuk mengelakkan
+    kucing menggosok mata.
+  puncaEN: Injuries, reduced corneal protection, or viral infection (FHV-1).
+  simptomEN: Blurred vision and ulcers are clearly visible on the eye.
+  tindakanEN: Refer to a veterinarian for a thorough eye examination.
+  maklumatTambahanEN: Veterinarians use a special green dye under a blue light to
+    see this ulcer. A cone collar is very important to prevent the cat from rubbing
+    its eyes.

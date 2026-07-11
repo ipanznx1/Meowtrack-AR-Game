@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Mata_8
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Mata
+  namaPenyakit: Horner's Syndrome
+  namaPenyakitEN: Horner's Syndrome
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: f58f1c6496a0f624dbf7244915be3e86, type: 3}
+  isGraphic: 0
+  punca: Trauma fizikal, keracunan, jangkitan kuman, atau tumor.
+  simptom: Anak mata menjadi kecil, kelopak mata layu/jatuh, dan kelopak mata ketiga
+    tertonjol keluar.
+  tindakan: Rujuk doktor haiwan.
+  maklumatTambahan: Kebanyakannya bersifat idiopatik (punca sebenar tidak diketahui).
+  puncaEN: Physical trauma, poisoning, bacterial infection, or tumor.
+  simptomEN: The pupil becomes small, the eyelid droops/sags, and the third eyelid
+    protrudes outward.
+  tindakanEN: Refer to a veterinarian.
+  maklumatTambahanEN: Mostly idiopathic (the exact cause is unknown).

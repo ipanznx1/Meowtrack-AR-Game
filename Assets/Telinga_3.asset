@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Telinga_3
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Telinga
+  namaPenyakit: Ear Mites (Otodectes cynotis)
+  namaPenyakitEN: Ear Mites (Otodectes cynotis)
+  tahapRisiko: Tahap 1
+  tahapRisikoEN: Level 1
+  gambar: {fileID: 21300000, guid: 189176aea096b2544b472eaa2393ba22, type: 3}
+  isGraphic: 0
+  punca: Jangkitan parasit hama Otodectes cynotis.
+  simptom: Terdapat lelehan kotoran hitam (seperti kopi) dalam telinga dan kucing
+    sangat kerap menggaru.
+  tindakan: Bersihkan telinga secara berkala dan elakkan kontak dengan kucing yang
+    dijangkiti.
+  maklumatTambahan: Ia mungkin nampak seperti tahi telinga biasa dan tak hilang walaupun
+    dibasuh. Jika guna kapas, ia berwarna sangat gelap. Pastikan alat pencuci telinga
+    disanitasi.
+  puncaEN: Infection by the parasite mite Otodectes cynotis.
+  simptomEN: Presence of black discharge (like coffee grounds) inside the ear and
+    the cat scratches very frequently.
+  tindakanEN: Clean the ears regularly and avoid contact with infected cats.
+  maklumatTambahanEN: It might look like normal earwax and does not go away even
+    when washed. If using cotton, it appears very dark in color. Ensure the ear cleaning
+    tools are sanitized.

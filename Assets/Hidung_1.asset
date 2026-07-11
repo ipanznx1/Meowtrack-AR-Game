@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Hidung_1
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Hidung
+  namaPenyakit: Epistaxis (Hidung Berdarah)
+  namaPenyakitEN: Epistaxis (Hidung Berdarah)
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: ec20bedc00a222644b4a859c4bdc3e70, type: 3}
+  isGraphic: 1
+  punca: 'Hentakan atau trauma pada bahagian muka yang mencederakan hidung, gangguan
+    pembekuan darah yang menyeluruh, hakisan pada membran hidung yang disebabkan
+    oleh bendasing, jangkitan kuman, tumor, atau parasit. '
+  simptom: 'Pendarahan dari rongga hidung, kucing bernafas dengan mulut terbuka dan
+    mengalami kekejangan bersin. '
+  tindakan: 'Pastikan kucing dalam keadaan tenang dan kurung di dalam satu tempat
+    yang selamat. Letakkan kiub ais atau pek sejuk pada batang hidung.
+
+
+    Segera
+    berjumpa doktor veterinar sekiranya hidung kucing berdarah akibat trauma pada
+    hidung atau jika pendarahan berterusan tanpa henti'
+  maklumatTambahan: Hidung berdarah tidak akan berlaku secara spontan (tanpa sebab)
+    pada kucing. Rongga hidung kucing adalah sangat sensitif dan sangat mudah berdarah
+    jika mengalami trauma. Pendarahan yang sedikit kebiasaannya akan berhenti dan
+    reda dengan cepat, terutamanya jika kucing dibiarkan dalam keadaan tenang.
+  puncaEN: Impact or trauma to the face area that injures the nose, systemic blood
+    clotting disorders, erosion of the nasal membrane caused by foreign bodies, bacterial
+    infections, tumors, or parasites.
+  simptomEN: Bleeding from the nasal cavity, the cat breathes with an open mouth,
+    and experiences sneezing fits/spasms.
+  tindakanEN: 'Keep the cat calm and confine it to a safe place. Place ice cubes
+    or a cold pack on the bridge of the nose.
+
+
+    Immediately see a veterinarian
+    if the cat''s nose is bleeding due to trauma or if the bleeding continues without
+    stopping.'
+  maklumatTambahanEN: Nosebleeds do not occur spontaneously (without reason) in cats.
+    A cat's nasal cavity is highly sensitive and bleeds very easily if it experiences
+    trauma. Mild bleeding will usually stop and subside quickly, especially if the
+    cat is left in a calm state.

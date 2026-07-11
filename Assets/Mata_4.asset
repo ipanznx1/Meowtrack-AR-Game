@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Mata_4
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Mata
+  namaPenyakit: Prolapsus Bulbus Oculi (Proptosis)
+  namaPenyakitEN: Prolapsus Bulbus Oculi (Proptosis)
+  tahapRisiko: Tahap 3
+  tahapRisikoEN: Level 3
+  gambar: {fileID: 21300000, guid: 01ebe6d21d93ff246a76e1dd098bbb07, type: 3}
+  isGraphic: 1
+  punca: Tekanan mata yang tinggi (Glaukoma), trauma, atau kemalangan.
+  simptom: Bola mata terkeluar dari soket, bengkak, kedudukan tidak normal, dan berdarah.
+  tindakan: Dapatkan rawatan kecemasan doktor haiwan segera.
+  maklumatTambahan: Rawatan mungkin melibatkan menyelamatkan mata tersebut atau membuangnya
+    sepenuhnya jika kes terlalu teruk.
+  puncaEN: High eye pressure (Glaucoma), trauma, or accidents.
+  simptomEN: Eyeball protruding out of the socket, swelling, abnormal positioning,
+    and bleeding.
+  tindakanEN: Seek immediate emergency veterinary treatment.
+  maklumatTambahanEN: Treatment may involve saving the eye or removing it completely
+    if the case is too severe.

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Mulut_1
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Mulut
+  namaPenyakit: Stomatitis (Oral Ulcer)
+  namaPenyakitEN: Stomatitis (Oral Ulcer)
+  tahapRisiko: Tahap 2
+  tahapRisikoEN: Level 2
+  gambar: {fileID: 21300000, guid: 1b8da6392cf51ab418a0c650178c18cc, type: 3}
+  isGraphic: 1
+  punca: Pelbagai faktor (bakteria, virus, kulat, nutrisi lemah, trauma, stres, alahan,
+    sistem imun lemah).
+  simptom: Gusi sangat merah/bengkak dan berulser, lidah pucat, lelangit tidak normal.
+    Kucing berliur melampau, sakit bila disentuh, mulut berdarah, dan kurang selera
+    makan.
+  tindakan: Diagnosis doktor haiwan melalui pemeriksaan fizikal.
+  maklumatTambahan: Berbeza dari ulser biasa. Mulut berbau sangat busuk. Kucing berhenti
+    membersihkan diri menyebabkan bulu bergumpal. Kucing mungkin menjatuhkan makanan
+    atau menangis ketika makan sehingga hilang berat badan.
+  puncaEN: Various factors (bacteria, virus, fungus, poor nutrition, trauma, stress,
+    allergies, weak immune system).
+  simptomEN: Severely red/swollen and ulcerated gums, pale tongue, abnormal palate.
+    The cat drools excessively, is painful when touched, has a bleeding mouth, and
+    has a reduced appetite.
+  tindakanEN: Diagnosis by a veterinarian through a physical examination.
+  maklumatTambahanEN: Different from a normal ulcer. The mouth has a very foul odor.
+    The cat stops grooming itself, causing matted fur. The cat may drop food or cry
+    while eating, leading to weight loss.

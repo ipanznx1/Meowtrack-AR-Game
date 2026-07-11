@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Mulut_2
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Mulut
+  namaPenyakit: Gingivitis Stomatitis
+  namaPenyakitEN: Gingivitis Stomatitis
+  tahapRisiko: Tahap 1
+  tahapRisikoEN: Level 1
+  gambar: {fileID: 21300000, guid: ab91b33db414c6a4392525e313acffcf, type: 3}
+  isGraphic: 1
+  punca: 'Tidak diketahui akan tetapi boleh berpunca dari bakteria daripada spesies
+    Bartonella juga dikaitkan dengan penyakit ini atau positif terhadap virus leukemia
+    kucing (FeLV) atau virus imunodefisiensi kucing (FIV). '
+  simptom: 'Nafas berbau busuk, Terdapat lesi (luka) yang membiak di sepanjang gusi,
+    Gusi menjadi sangat merah dan mudah berdarah jika bergeser. '
+  tindakan: Lakukan pembersihan gigi untuk membuang plak dan tartar di bawah bius
+    (kerap dilakukan setiap 4 hingga 6 bulan). Pemberian ubat tahan sakit dan Berus
+    gigi dan bilas mulut setiap hari untuk memastikan kebersihan mulut tahap maksimum.
+  maklumatTambahan: 'Keadaan ini adalah unik dan hanya berlaku pada spesies kucing.
+
+
+    Anak
+    kucing berumur 3-6 bulan mungkin akan pulih sepenuhnya apabila mereka membesar
+    jika diberi penjagaan rapi, tetapi kebanyakkan kucing dewasa/tua tidak akan pulih
+    dengan cara yang sama.
+
+'
+  puncaEN: Unknown, but can originate from Bartonella species bacteria; it is also
+    associated with this disease or a positive status for Feline Leukemia Virus (FeLV)
+    or Feline Immunodeficiency Virus (FIV).
+  simptomEN: Foul-smelling breath, lesions (sores) proliferating along the gums,
+    and gums becoming very red and easily bleeding if rubbed.
+  tindakanEN: Perform dental cleaning to remove plaque and tartar under anesthesia
+    (often done every 4 to 6 months). Administer pain relievers, and brush teeth
+    and rinse the mouth daily to ensure maximum mouth cleanliness.
+  maklumatTambahanEN: "This condition is unique and only occurs in feline species.
+    Kittens aged 3\u20136 months may fully recover as they grow up if given intensive
+    care, but most adult/older cats will not recover in the same way."

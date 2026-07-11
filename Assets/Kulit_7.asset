@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Kulit_7
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Kulit
+  namaPenyakit: Myiasis (Luka Berulat)
+  namaPenyakitEN: Myiasis (Luka Berulat)
+  tahapRisiko: Tahap 3
+  tahapRisikoEN: Level 3
+  gambar: {fileID: 21300000, guid: 8d58a4adec421724eaea741fbf876744, type: 3}
+  isGraphic: 1
+  punca: Larva (ulat) dari lalat membiak dan membesar pada badan kucing.
+  simptom: Kehadiran ulat pada kulit yang sihat atau pada luka yang sedia ada.
+  tindakan: Rawatan doktor haiwan segera amat diperlukan.
+  maklumatTambahan: "Larva boleh menyerang kulit, telinga, mata, mulut, dan sistem
+    pencernaan. \n\nTanda kecemasan: Ulat putih bergerak, bau daging reput yang amat
+    busuk, demam, dan kesukaran bernafas."
+  puncaEN: Fly larvae (maggots) breed and grow on the cat's body.
+  simptomEN: Presence of maggots on healthy skin or on existing wounds.
+  tindakanEN: Immediate veterinary treatment is highly required.
+  maklumatTambahanEN: 'Larvae can attack the skin, ears, eyes, mouth, and digestive
+    system.
+
+
+    Emergency signs: Moving white maggots, a very foul odor of rotting
+    flesh, fever, and difficulty breathing.'

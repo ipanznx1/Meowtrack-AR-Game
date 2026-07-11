@@ -1,0 +1,19 @@
+# ninja log v5
+428	4313	8037044685413553	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c829bf13d0c69d9f
+424	4650	8037044688807886	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	238fe9a74db3e3ee
+408	4553	8037044687804501	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	f94736ad571e9f00
+4884	6381	8037044706080339	E:/MeowtrackProject/flutter-unity-view-widget-2022.2.1/unity/KUCING AR BARU/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/5y2t6hf4/obj/arm64-v8a/libgame.so	2470cec39fef7de1
+403	4308	8037044685382838	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	fa48b0753d3f3f3a
+415	4318	8037044685474665	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	276bd961c7576f25
+433	4566	8037044687946058	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	95516bd94d07488b
+419	4811	8037044690392233	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	9983a85577b00359
+411	4884	8037044691098067	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f3b49a2f056ef67e
+1611	11691	8037148683574548	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c829bf13d0c69d9f
+377	11693	8037148685022141	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	fa48b0753d3f3f3a
+537	11696	8037148685274390	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	f94736ad571e9f00
+540	11698	8037148683574548	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	238fe9a74db3e3ee
+427	11701	8037148684921808	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	276bd961c7576f25
+1709	11703	8037148685739805	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	95516bd94d07488b
+1645	11780	8037148686963181	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	9983a85577b00359
+430	11787	8037148687018830	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f3b49a2f056ef67e
+11788	13202	8037148700835804	E:/MeowtrackProject/flutter-unity-view-widget-2022.2.1/unity/KUCING AR BARU/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/5y2t6hf4/obj/arm64-v8a/libgame.so	2470cec39fef7de1

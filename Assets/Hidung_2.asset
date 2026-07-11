@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874637cabf445b44aa6cb3553862f49, type: 3}
+  m_Name: Hidung_2
+  m_EditorClassIdentifier: Assembly-CSharp::PenyakitData
+  tagBahagian: Hidung
+  namaPenyakit: Rhinitis Alahan (Resdung)
+  namaPenyakitEN: Rhinitis Alahan (Resdung)
+  tahapRisiko: Tahap 1
+  tahapRisikoEN: Level 1
+  gambar: {fileID: 21300000, guid: f5936653d860ace4bad1a9197c0c622a, type: 3}
+  isGraphic: 0
+  punca: 'Sentuhan atau pendedahan kepada bahan kimia (irritants) dan alergen di
+    persekitaran.
+
+
+    Asap rokok, habuk, dan debunga (punca paling biasa)'
+  simptom: Kucing mengalami serangan bersin secara berkala (berlaku dalam tempoh
+    yang singkat tetapi cenderung berulang dari hari ke hari). Terdapat lelehan atau
+    hingus yang jernih dan berair keluar dari hidung.
+  tindakan: 'Kenal pasti dan buang/jauhkan sumber yang menyebabkan kerengsaan tersebut
+    jika boleh. Doktor veterinar mungkin mencadangkan ubat titis mata anti-radang
+    untuk dititiskan terus ke dalam hidung (intranasally).
+
+
+    Jangan sesekali
+    memberikan kucing anda sebarang ubat yang mengandungi steroid tanpa mendapat
+    nasihat dan pantauan daripada doktor veterinar '
+  maklumatTambahan: Pakar-pakar veterinar berpendapat bahawa alahan hidung yang sebenar
+    ini sangat jarang berlaku pada kucing. Kebanyakan kes yang kelihatan seperti
+    alahan sebenarnya hanyalah tindak balas biasa terhadap bahan perengsa di sekeliling
+    mereka.
+  puncaEN: 'Contact or exposure to chemicals (irritants) and allergens in the environment.
+
+
+    Cigarette
+    smoke, dust, and pollen (the most common causes).'
+  simptomEN: The cat experiences periodic sneezing fits (occurring for a short duration
+    but tending to recur day after day). There is clear and watery discharge or mucus
+    coming out of the nose.
+  tindakanEN: 'Identify and remove/keep away the source causing the irritation if
+    possible. A veterinarian may suggest anti-inflammatory eye drops to be administered
+    directly into the nose (intranasally).
+
+
+    Never give your cat any medication
+    containing steroids without getting advice and monitoring from a veterinarian.'
+  maklumatTambahanEN: Veterinary experts believe that true nasal allergies are very
+    rare in cats. Most cases that look like allergies are actually just normal reactions
+    to irritants around them.
