@@ -10,14 +10,16 @@ public class PemegangDataSensor : MonoBehaviour
     // 1. Fungsi ambil data sekarang (Tanpa gerakkan senarai)
     public PenyakitData DapatkanDataSemasa()
     {
-        if (senaraiPenyakit.Length == 0) return null;
+        if (senaraiPenyakit == null || senaraiPenyakit.Length == 0) return null;
+        if (indeksSemasa < 0) indeksSemasa = 0;
+        if (indeksSemasa >= senaraiPenyakit.Length) indeksSemasa = 0;
         return senaraiPenyakit[indeksSemasa];
     }
 
     // 2. Fungsi ke depan (Bila butang Next ditekan)
     public PenyakitData KeSeterusnya()
     {
-        if (senaraiPenyakit.Length == 0) return null;
+        if (senaraiPenyakit == null || senaraiPenyakit.Length == 0) return null;
 
         indeksSemasa = indeksSemasa + 1;
 
@@ -33,7 +35,7 @@ public class PemegangDataSensor : MonoBehaviour
     // 3. Fungsi patah balik (Bila butang Prev ditekan)
     public PenyakitData KeSebelumnya()
     {
-        if (senaraiPenyakit.Length == 0) return null;
+        if (senaraiPenyakit == null || senaraiPenyakit.Length == 0) return null;
 
         indeksSemasa = indeksSemasa - 1;
 

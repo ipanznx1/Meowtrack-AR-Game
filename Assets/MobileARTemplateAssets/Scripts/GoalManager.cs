@@ -195,20 +195,42 @@ namespace UnityEngine.XR.Templates.AR
 
         void CompleteGoal()
         {
-            if (m_CurrentGoal.CurrentGoal == OnboardingGoals.TapSurface)
+            if (m_CurrentGoal.CurrentGoal == OnboardingGoals.TapSurface && m_ObjectSpawner != null)
                 m_ObjectSpawner.objectSpawned -= OnObjectSpawned;
 
             m_CurrentGoal.Completed = true;
             m_CurrentGoalIndex++;
-            if (m_OnboardingGoals.Count > 0)
+
+            bool hasMoreGoals = m_OnboardingGoals != null && m_OnboardingGoals.Count > 0;
+
+            int prevIndex = m_CurrentGoalIndex - 1;
+            int nextIndex = m_CurrentGoalIndex;
+
+            // Safely deactivate previous step if available
+            if (prevIndex >= 0 && prevIndex < m_StepList.Count && m_StepList[prevIndex] != null && m_StepList[prevIndex].stepObject != null)
+            {
+                m_StepList[prevIndex].stepObject.SetActive(false);
+            }
+
+            if (hasMoreGoals)
             {
                 m_CurrentGoal = m_OnboardingGoals.Dequeue();
-                m_StepList[m_CurrentGoalIndex - 1].stepObject.SetActive(false);
-                m_StepList[m_CurrentGoalIndex].stepObject.SetActive(true);
+
+                // Activate next step only if within bounds
+                if (nextIndex >= 0 && nextIndex < m_StepList.Count && m_StepList[nextIndex] != null && m_StepList[nextIndex].stepObject != null)
+                {
+                    m_StepList[nextIndex].stepObject.SetActive(true);
+                }
+                else
+                {
+                    Debug.LogWarning("[GoalManager] Next step index out of range or missing stepObject. Marking onboarding finished.");
+                    m_AllGoalsFinished = true;
+                    return;
+                }
             }
             else
             {
-                m_StepList[m_CurrentGoalIndex - 1].stepObject.SetActive(false);
+                // No more goals queued; finish onboarding
                 m_AllGoalsFinished = true;
                 return;
             }
@@ -305,13 +327,52 @@ namespace UnityEngine.XR.Templates.AR
             m_AllGoalsFinished = false;
             m_CurrentGoalIndex = startingStep;
 
-            m_GreetingPrompt.SetActive(false);
-            m_OptionsButton.SetActive(true);
-            m_CreateButton.SetActive(true);
-            m_MenuManager.enabled = true;
+            if (m_GreetingPrompt != null)
+                m_GreetingPrompt.SetActive(false);
+            else
+                Debug.LogWarning("[GoalManager] m_GreetingPrompt is not assigned.");
+
+            if (m_OptionsButton != null)
+                m_OptionsButton.SetActive(true);
+            else
+                Debug.LogWarning("[GoalManager] m_OptionsButton is not assigned.");
+
+            if (m_CreateButton != null)
+                m_CreateButton.SetActive(true);
+            else
+                Debug.LogWarning("[GoalManager] m_CreateButton is not assigned.");
+
+            if (m_MenuManager != null)
+                m_MenuManager.enabled = true;
+            else
+                Debug.LogWarning("[GoalManager] m_MenuManager is not assigned.");
+
+            if (m_StepList == null || m_StepList.Count == 0)
+            {
+                Debug.LogWarning("[GoalManager] m_StepList is empty or null. No onboarding steps to show.");
+                return;
+            }
+
+            if (startingStep >= m_StepList.Count)
+            {
+                Debug.LogWarning($"[GoalManager] startingStep ({startingStep}) is outside m_StepList range ({m_StepList.Count}).");
+                return;
+            }
 
             for (int i = startingStep; i < m_StepList.Count; i++)
             {
+                if (m_StepList[i] == null)
+                {
+                    Debug.LogWarning($"[GoalManager] m_StepList[{i}] is null. Skipping.");
+                    continue;
+                }
+
+                if (m_StepList[i].stepObject == null)
+                {
+                    Debug.LogWarning($"[GoalManager] stepObject is null for m_StepList[{i}]. Skipping.");
+                    continue;
+                }
+
                 if (i == startingStep)
                 {
                     m_StepList[i].stepObject.SetActive(true);

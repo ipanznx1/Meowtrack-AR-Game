@@ -27,6 +27,12 @@ public class BahagianBadan : MonoBehaviour, IPointerDownHandler
             }
 
             Debug.Log("Sistem Touch Berjaya! " + namaBahagian + " dipadam.");
+            // Inform popup flow manager that the body was pressed
+            var pap = FindAnyObjectByType<PengurusAliranPopupAR>();
+            if (pap != null)
+            {
+                pap.BadanKucingDitekan();
+            }
         }
     }
 }

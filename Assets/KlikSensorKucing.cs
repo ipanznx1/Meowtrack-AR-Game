@@ -24,6 +24,13 @@ public class KlikSensorKucing : MonoBehaviour
         }
 
         Debug.Log("Sensor badan kucing ditekan! Kad bahasa yang betul dibuka.");
+
+        // Notify popup flow that the cat body was pressed
+        PengurusAliranPopupAR pap = FindAnyObjectByType<PengurusAliranPopupAR>();
+        if (pap != null)
+        {
+            pap.BadanKucingDitekan();
+        }
     }
 
     // Fungsi ni untuk dipanggil oleh butang bahasa nanti
