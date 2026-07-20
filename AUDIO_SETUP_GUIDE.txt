@@ -1,0 +1,133 @@
+# BACKGROUND MUSIC SETUP GUIDE
+
+## Overview
+This system provides background music with mute button and volume slider controls, with settings persistence.
+
+## Components Created
+1. **AudioManager.cs** - Singleton that handles music playback
+2. **AudioUIController.cs** - UI controller for buttons and sliders
+3. **AudioSetupHelper.cs** - Automatic setup helper (OPTIONAL - for quick setup)
+
+## QUICK SETUP (Automatic - Recommended!)
+
+If you want everything done automatically:
+
+1. Create an empty GameObject in your scene
+2. Add the `AudioSetupHelper` script to it
+3. In Inspector:
+   - Assign your background music file to "Background Music Clip"
+   - Drag your Canvas into "Target Canvas" field
+   - Click the "Setup Audio UI" button in the inspector
+4. **Done!** All UI elements are created and configured automatically
+
+## Step-by-Step Setup in Unity
+
+### Step 1: Create AudioManager GameObject
+1. In your main scene, create an empty GameObject
+   - Name: "AudioManager"
+2. Add the `AudioManager` script to it
+3. In Inspector:
+   - Assign your background music audio file to "Background Music Clip"
+   - Set "Default Volume" to 0.5 (or your preferred value)
+
+### Step 2: Assign Audio File
+1. In the Assets folder, find your background music file (MP3, WAV, or OGG)
+2. In the AudioManager component, drag your music file into the "Background Music Clip" field
+3. The script will automatically:
+   - Create an AudioSource component
+   - Set it to loop
+   - Load saved volume settings
+
+### Step 3: Create UI Elements on Your Canvas
+
+#### A) Create Mute Button
+1. Right-click on your Canvas → UI → Button (TextMeshPro)
+   - Name: "MuteButton"
+   - Position: Top-right or bottom-right corner
+   - Size: ~60x60 pixels
+2. Select the button's text child and set it to "🔊" (speaker emoji)
+
+#### B) Create Volume Slider
+1. Right-click on Canvas → UI → Slider
+   - Name: "VolumeSlider"
+   - Position: Next to mute button
+   - Size: ~200x30 pixels
+2. Configure the slider:
+   - Min Value: 0
+   - Max Value: 1
+   - Whole Numbers: OFF (unchecked)
+
+#### C) Optional: Volume Text Display
+1. Right-click on Canvas → UI → Text (TextMeshPro)
+   - Name: "VolumeText"
+   - Position: Next to slider
+   - Text: "50%"
+
+### Step 4: Setup AudioUIController
+1. Create an empty GameObject as a child of Canvas
+   - Name: "AudioUIController"
+2. Add the `AudioUIController` script to it
+3. In Inspector, drag and assign:
+   - **Mute Button**: Drag "MuteButton" here
+   - **Volume Slider**: Drag "VolumeSlider" here
+   - **Volume Text Display**: Drag "VolumeText" here (optional)
+
+### Step 5: Test
+1. Press Play in Unity
+2. Background music should play automatically
+3. Click the mute button - button color should change to red and music mutes
+4. Move the volume slider - music volume should adjust
+5. Stop and play again - settings should be restored
+
+## Features
+
+✅ **Persistent Settings** - Volume and mute state saved between sessions
+✅ **Singleton Pattern** - Only one AudioManager instance across scenes
+✅ **Visual Feedback** - Button changes color when muted
+✅ **Volume Display** - Optional percentage display
+✅ **Loop Support** - Music loops seamlessly
+✅ **Easy Integration** - No complex setup required
+
+## How to Use in Your Code
+
+If you need to control music from other scripts:
+
+```csharp
+// Play music
+AudioManager.instance.PlayBackgroundMusic();
+
+// Stop music
+AudioManager.instance.StopBackgroundMusic();
+
+// Set volume (0-1)
+AudioManager.instance.SetVolume(0.7f);
+
+// Get current volume
+float volume = AudioManager.instance.GetVolume();
+
+// Toggle mute
+AudioManager.instance.ToggleMute();
+
+// Check if muted
+bool isMuted = AudioManager.instance.IsMuted();
+```
+
+## Troubleshooting
+
+**Q: Music doesn't play**
+- Check if background music clip is assigned in AudioManager inspector
+- Ensure AudioSource component exists (script creates it automatically)
+- Check if game is muted in audio settings
+
+**Q: Settings not saving**
+- PlayerPrefs should work on all platforms
+- On WebGL, you may need to use different persistence
+
+**Q: Slider not working**
+- Ensure volumeSlider is assigned in AudioUIController
+- Check that slider's "Interactable" is enabled
+
+**Q: Button text not showing emoji**
+- Ensure you're using TextMeshPro (not legacy Text)
+- Try using other emoji: 🔉, 🔕, ❌, ✓, etc.
+- If still not working, use text instead: "SOUND ON" / "MUTE ON"
