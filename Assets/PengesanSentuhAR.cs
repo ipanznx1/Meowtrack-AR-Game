@@ -412,6 +412,20 @@ public class PengesanSentuhAR : MonoBehaviour
         return hitTransform.GetComponentInChildren<PemegangDataSensor>();
     }
 
+    // Debug helper: force show the first available sensor's info cards (useful for mobile testing)
+    public bool DebugShowFirstSensor()
+    {
+        var first = FindObjectOfType<PemegangDataSensor>();
+        if (first == null)
+        {
+            Debug.LogWarning("[PengesanSentuhAR] No PemegangDataSensor found for DebugShowFirstSensor().");
+            return false;
+        }
+
+        Debug.Log("[PengesanSentuhAR] DebugShowFirstSensor() called. Showing cards for: " + first.name);
+        return PaparkanData(first);
+    }
+
     // --- ANIMASI MELANTUN (BOUNCE) ---
     IEnumerator EfekMelantunUI()
     {
