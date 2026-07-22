@@ -87,32 +87,50 @@ public class PengesanSentuhAR : MonoBehaviour
         bool adaTekanan = false;
         Vector2 posisiTekanan = Vector2.zero;
 
-        // Kesan KLIK MOUSE (Input System preferred; legacy guarded)
-        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            adaTekanan = true;
-            posisiTekanan = Mouse.current.position.ReadValue();
-        }
-#if ENABLE_LEGACY_INPUT_MANAGER
-        else if (Input.GetMouseButtonDown(0))
-        {
-            adaTekanan = true;
-            posisiTekanan = Input.mousePosition;
-        }
-#endif
-        // Kesan SENTUHAN JARI (Input System preferred; legacy guarded)
-        else if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+        // Try Unity Input System first
+        if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
         {
             adaTekanan = true;
             posisiTekanan = Touchscreen.current.primaryTouch.position.ReadValue();
+            Debug.Log("[PengesanSentuhAR] Touchscreen input detected via Input System.");
         }
-#if ENABLE_LEGACY_INPUT_MANAGER
-        else if (Input.touchCount > 0 && Input.GetTouch(0).phase == UnityEngine.TouchPhase.Began)
+        else if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
             adaTekanan = true;
-            posisiTekanan = Input.GetTouch(0).position;
+            posisiTekanan = Mouse.current.position.ReadValue();
+            Debug.Log("[PengesanSentuhAR] Mouse input detected via Input System.");
+        }
+
+        // Legacy input fallback, useful if the Input System is not available or configured differently
+#if ENABLE_LEGACY_INPUT_MANAGER
+        if (!adaTekanan)
+        {
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == UnityEngine.TouchPhase.Began)
+            {
+                adaTekanan = true;
+                posisiTekanan = Input.GetTouch(0).position;
+                Debug.Log("[PengesanSentuhAR] Touch input detected via Legacy Input.");
+            }
+            else if (Input.GetMouseButtonDown(0))
+            {
+                adaTekanan = true;
+                posisiTekanan = Input.mousePosition;
+                Debug.Log("[PengesanSentuhAR] Mouse input detected via Legacy Input.");
+            }
         }
 #endif
+
+        if (!adaTekanan && Input.touchCount > 0)
+        {
+            // Non-legacy touch check for builds where Input System may still expose Input.touchCount.
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == UnityEngine.TouchPhase.Began)
+            {
+                adaTekanan = true;
+                posisiTekanan = touch.position;
+                Debug.Log("[PengesanSentuhAR] Touch input detected via Input.touchCount fallback.");
+            }
+        }
 
         if (adaTekanan)
         {
