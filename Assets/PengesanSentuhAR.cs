@@ -240,14 +240,14 @@ public class PengesanSentuhAR : MonoBehaviour
         Canvas canvas = canvasMaklumat.GetComponentInParent<Canvas>();
         if (canvas != null && canvas.renderMode == RenderMode.WorldSpace)
         {
-            if (respectEditorTransform)
+            if (respectEditorTransform && Application.isEditor)
             {
-                // Designer wants the canvas left where they placed it in the scene. Activate and ensure scale/rotation are sane.
+                // Only preserve the editor placement while testing in the Editor.
                 canvasMaklumat.gameObject.SetActive(true);
                 canvasMaklumat.localScale = skalaAsalCanvas;
                 if (arKamera != null)
                     canvasMaklumat.rotation = Quaternion.LookRotation(arKamera.transform.position - canvasMaklumat.position);
-                Debug.Log("[PengesanSentuhAR] respectEditorTransform is true — preserving editor-placed canvas transform at runtime.");
+                Debug.Log("[PengesanSentuhAR] respectEditorTransform is true and running in Editor — preserving editor-placed canvas transform.");
                 return;
             }
             Vector3 directionFromCamera = (hitPoint - arKamera.transform.position).normalized;
