@@ -123,13 +123,24 @@ public class PengesanSentuhAR : MonoBehaviour
         if (!adaTekanan && Input.touchCount > 0)
         {
             // Non-legacy touch check for builds where Input System may still expose Input.touchCount.
-            Touch touch = Input.GetTouch(0);
-            if (touch.phase == UnityEngine.TouchPhase.Began)
+            for (int i = 0; i < Input.touchCount; i++)
             {
-                adaTekanan = true;
-                posisiTekanan = touch.position;
-                Debug.Log("[PengesanSentuhAR] Touch input detected via Input.touchCount fallback.");
+                Touch touch = Input.GetTouch(i);
+                if (touch.phase == UnityEngine.TouchPhase.Began)
+                {
+                    adaTekanan = true;
+                    posisiTekanan = touch.position;
+                    Debug.Log("[PengesanSentuhAR] Touch input detected via Input.touchCount fallback.");
+                    break;
+                }
             }
+        }
+
+        if (!adaTekanan && Input.GetMouseButtonDown(0))
+        {
+            adaTekanan = true;
+            posisiTekanan = Input.mousePosition;
+            Debug.Log("[PengesanSentuhAR] Touch input detected via Input.GetMouseButtonDown fallback.");
         }
 
         if (adaTekanan)
@@ -145,35 +156,31 @@ public class PengesanSentuhAR : MonoBehaviour
 
                 if (Physics.Raycast(ray, out hit))
                 {
-                    PemegangDataSensor sensor = FindSensorFromHit(hit.transform);
-
-                    if (sensor != null)
-                    {
-                        // 1. Simpan sensor ini sebagai sensor yang 'Aktif' sekarang
-                        sensorAktif = sensor;
-
-                        // 2. Ubah kedudukan Canvas ke lokasi sensor yang disentuh setiap kali
-                        if (canvasMaklumat != null)
-                        {
-                                if (!canvasLocked)
-                                {
-                                    PositionCanvasAtHitPoint(hit.point, hit.transform);
-                                }
-                            lastHitPoint = hit.point;
-                        }
-
-                        // 3. Tunjuk SEMUA data dalam bentuk kad bertindan
-                        bool shown = PaparkanData(sensorAktif);
-                        infoPopupVisible = shown;
-                    }
-                    else
-                    {
-                        Debug.Log("[PengesanSentuhAR] Raycast hit " + hit.transform.name + " (layer=" + LayerMask.LayerToName(hit.transform.gameObject.layer) + ") but no PemegangDataSensor found.");
-                    }
+                    ProcessHit(hit, ray);
                 }
                 else
                 {
-                    Debug.Log("[PengesanSentuhAR] Touch raycast missed all colliders.");
+                    // Fallback: use a small sphere cast to catch nearby hits that may miss due to thin colliders or mobile precision.
+                    float sphereRadius = 0.03f;
+                    if (Physics.SphereCast(ray, sphereRadius, out hit, 1f))
+                    {
+                        Debug.Log("[PengesanSentuhAR] Raycast missed but SphereCast hit " + hit.transform.name);
+                        ProcessHit(hit, ray);
+                    }
+                    else
+                    {
+                        // Final fallback: try a short ray from just above the touch point to account for camera/skew issues.
+                        Ray altRay = new Ray(ray.origin + ray.direction * 0.01f, ray.direction);
+                        if (Physics.Raycast(altRay, out hit, 1f))
+                        {
+                            Debug.Log("[PengesanSentuhAR] AltRay hit " + hit.transform.name);
+                            ProcessHit(hit, altRay);
+                        }
+                        else
+                        {
+                            Debug.Log("[PengesanSentuhAR] Touch raycast, SphereCast, and AltRay all missed.");
+                        }
+                    }
                 }
             }
         }
@@ -181,6 +188,44 @@ public class PengesanSentuhAR : MonoBehaviour
         if (infoPopupVisible && canvasMaklumat != null)
         {
             KeepCanvasFacingCamera();
+        }
+    }
+
+    private void ProcessHit(RaycastHit hit, Ray ray)
+    {
+        PemegangDataSensor sensor = FindSensorFromHit(hit.transform);
+
+        if (sensor == null)
+        {
+            Transform current = hit.transform;
+            int steps = 0;
+            while (sensor == null && current != null && steps < 5)
+            {
+                sensor = current.GetComponent<PemegangDataSensor>();
+                if (sensor != null) break;
+                current = current.parent;
+                steps++;
+            }
+        }
+
+        if (sensor != null)
+        {
+            sensorAktif = sensor;
+            if (canvasMaklumat != null)
+            {
+                if (!canvasLocked)
+                {
+                    PositionCanvasAtHitPoint(hit.point, hit.transform);
+                }
+                lastHitPoint = hit.point;
+            }
+
+            bool shown = PaparkanData(sensorAktif);
+            infoPopupVisible = shown;
+        }
+        else
+        {
+            Debug.Log("[PengesanSentuhAR] ProcessHit hit " + hit.transform.name + " but no PemegangDataSensor found on hit or parent chain.");
         }
     }
 
